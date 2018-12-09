@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Helvetica Neue,Arial;
     font-size: 18px;
@@ -6,15 +12,21 @@ body{
 h1,h2 {
     color:rgba(5, 145, 0, 0.781);
     font-size: 40px;
- 
+
+}
+
+h1{
+    margin-bottom: 20px;
 }
 h2{
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 
 .main-text{
     text-align: justify;
+    margin-bottom: 20px;
 }
  .author-text{
      font-size:22px;
