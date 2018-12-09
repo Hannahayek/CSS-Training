@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.clearfix:after{
+    content: "";
+    display: table;
+    clear:both;
+}
 
 body{
     font-family: Helvetica Neue,Arial;
@@ -22,8 +27,26 @@ h2{
     font-size: 25px;
     margin-bottom: 10px;
 }
-
-
+.container{
+    
+  width: 1140px;
+  margin:20px auto 0 auto;
+}
+.blog-posts{
+    width:75%;
+  
+    float: left;
+    padding-right: 30px;
+}
+.other-posts{
+   
+    width:25%;
+    float: left;
+}
+.author-box{
+    padding-top: 20px;
+  border-top: 1px solid #808080
+}
 .main-text{
     text-align: justify;
     margin-bottom: 20px;
