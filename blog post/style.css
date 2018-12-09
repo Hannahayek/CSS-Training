@@ -34,9 +34,15 @@ h2{
 }
 .blog-posts{
     width:75%;
-  
+     position: relative;
     float: left;
     padding-right: 30px;
+}
+.date{
+    position: absolute;
+    top:0;
+    right: 30px;
+   
 }
 .blog-posts img{
 height: 150px;
