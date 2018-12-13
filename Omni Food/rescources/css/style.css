@@ -182,5 +182,29 @@ header{
 }
 
 
+/*----------------------------*/
+/*Meals */
+/*----------------------------*/
+.meals-showcase{
+list-style-type:none;
+width:100%;
+
+}
+.meals-showcase li{
+   display: block;
+   float: left;
+   width: 25%; /*we want 4, 100/4 */
+    
+    }
+.meal-photo{
+    width:100%;
+    margin:0;
+}
+
+.meal-photo img{
+    width:100%;
+    height: auto;
+}
+
 
 
