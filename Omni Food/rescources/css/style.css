@@ -16,6 +16,25 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* this class will clear floats after elements */
+.clearfix {zoom: 1}
+
+.clearfix:after {
+
+    content: ".";
+
+    clear: both;
+
+    display: block;
+
+    height: 0;
+
+    visibility: hidden;
+
+   
+
+    }
+
 /*----------------------------*/
 /*REUSABLE COMPONONENTS */
 /*----------------------------*/
@@ -23,8 +42,7 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
-
-.section{
+section{
     padding: 80px 0;
 }
 
@@ -193,11 +211,12 @@ header{
 /*----------------------------*/
 
 
-.secion-meals{
+.section-meals{
     padding:0;
+    
 }
 .meals-showcase{
-list-style-type:none;
+list-style:none;
 width:100%;
 
 }
@@ -227,5 +246,64 @@ width:100%;
    opacity: 1;
 }
 
+/*----------------------------*/
+/*HOW IT WORKS */
+/*----------------------------*/
 
+section-steps {
 
+    background-color: #f4f4f4;
+
+}
+
+.steps-box:first-child {
+
+    text-align: right;
+
+    padding-right: 3%;
+
+    margin-top: 30px; 
+
+   
+
+}
+
+.steps-box:last-child {
+
+   padding-left: 3%;
+
+   margin-top: 70px;   
+
+   
+
+}
+.app-screen{
+    width:40%;
+}
+.works-step{
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type{
+    margin-bottom: 80px;
+    
+}
+
+.works-step div{
+    color: #cf6d17;
+    border:2px solid #cf6d17;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width:55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+.btn-app img{
+    height:50px ;
+    width:auto;
+    margin-right: 10px;
+}
