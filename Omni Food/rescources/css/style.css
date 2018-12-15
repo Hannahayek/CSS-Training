@@ -195,6 +195,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 .hero-text-box{
     position: absolute;
@@ -360,4 +361,46 @@ width:100%;
 }
 .city-feature{
     margin-bottom: 5px;
+}
+
+/*----------------------------*/
+/*testimonials */
+/*----------------------------*/
+.section-testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.808),rgba(0, 0, 0, 0.808)),url("img/back-customers.jpg");
+    background-size:cover;
+    color:#ffff;
+    background-attachment: fixed;
+}
+
+blockquote{
+    padding:2%;
+    font-style: italic;
+    line-height:  145%;
+    /* position relative so we can set below class absolute */
+    position: relative;
+    margin-top: 40px;
+}
+blockquote:before{
+    /* content from site https://css-tricks.com/snippets/html/glyphs/*/
+    content:"\201C";
+    font-size: 500%;
+    display: block;
+    /*  when setting position abosulute, we need to make sure has relative position*/
+    position: absolute;
+    top:-5;
+    left: -3;
+}
+cite {
+    font-size:90%;
+    margin-top:25px%;
+    display: block;
+}
+
+
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
