@@ -270,10 +270,12 @@ header{
     left:0;
     width: 100%;
     background-color: rgba(255, 251, 251, 0.979);
-    box-shadow: 0 2px 2px rgb(238, 238, 238)
+    box-shadow: 0 2px 2px rgb(238, 238, 238);
+    /* will keep it always on top */
+    z-index: 9999;
 }
 
-.main-nav{
+.sticky .main-nav{
     margin-top: 18px;
 }
 .sticky .main-nav li a:link,
