@@ -96,7 +96,7 @@ h2{font-size: 150%}
 /* small phones:from 0 to 480 px */
 @media only screen and (max-width: 480px){
 section{padding:25px 0;}
-.contact-form:width: 100%;
+.contact-form:width: ;
 
 
 }
